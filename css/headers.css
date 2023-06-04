@@ -1,0 +1,80 @@
+/* <-----------------------------------------------Header-1 PAGE----------------------------------------------------------> */
+
+.MainHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+}
+
+.navbar-details a{
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-left: 30px;
+        color:whitesmoke;
+        font-weight: 600;
+        font-size:16px;
+        padding:10px;
+        border-radius: 10px;
+}
+
+.navbar-details{
+        border-bottom-left-radius:50px ;
+        background-color: rgb(139, 7, 139);
+        padding: 30px 100px;
+}
+
+.navbar-details a:hover {
+        background-color: rgb(226, 31, 200);
+        color: rgb(239, 227, 205);
+}
+
+.logo{
+        position: absolute;
+        width: auto;
+        height: 170px;;
+        left: 50px;
+        top: 25px;
+}
+
+/* <-------------------------------------------Header -2 Page-------------------------------------------------------------------------------------> */
+
+.useraccount i{
+        font-size: 60px;
+        margin-right: 20px;
+}
+
+.navbar-details-after-registration{
+        display: inline-flex;
+        border-bottom-left-radius:50px ;
+        background-color: rgb(139, 7, 139);
+        padding: 30px 100px;
+}
+
+.navbar-details-after-registration a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color:whitesmoke;
+        font-weight: 300;
+        font-size:16px;
+        padding:20px;
+}
+
+.home{
+        border-right: 1px solid whitesmoke;
+
+}
+
+.home, .logout{
+        margin-top: 5px;
+}
+
+.navbar-details-after-registration a:hover{
+        color:rgb(0, 249, 212);
+}
+
+.usericons i{
+        font-size: 30px;
+        margin-top: 15px;
+        padding-left: 15px;
+}

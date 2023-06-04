@@ -1,0 +1,777 @@
+
+/* <---------------------------------------------Header Page-2 ---------------------------------------> */
+
+body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-color: #ECC7F2;
+}
+
+.MainBody{
+        margin-top: 20px;
+        width: 100%;
+}
+
+.picContainer{
+        width:50uw;
+}
+
+
+
+/*------------------------------------- header---------------------------------------------  */
+.MainHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.navbar-details a{
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-left: 30px;
+        color:whitesmoke;
+        font-weight: 600;
+        font-size:20px;
+        padding:10px;
+        border-radius: 10px;
+}
+
+.navbar-details{
+        border-bottom-left-radius:50px ;
+        background-color: rgb(139, 7, 139);
+        padding: 30px 150px;
+}
+
+.navbar-details a:hover {
+        background-color: rgb(148, 21, 125);
+        color: rgb(239, 227, 205);
+}
+
+.logo{
+        position: absolute;
+        width: auto;
+        height: 170px;;
+        left: 50px;
+        top: 25px;
+}
+
+
+/* <---------------------------------------------Home Page---------------------------------------> */
+
+
+.homeContainer1{
+        margin-top: 30px;
+        display: inline-flex;
+        padding-left: 180px;
+        margin-bottom: 10px;
+       
+}
+
+.homeContainer2, .homeContainer3{
+        display: inline-flex;
+        padding-left: 180px;               
+}
+
+.homeContainer3{
+        margin-left: 35px;
+}
+
+.item1, .item2, .item3 , .item4 , .item2-1 , .item2-2, .item3-1 , .item4-2, .item4-1{
+        width: 280px;
+        height: 310px;
+        background: #F5E0F2;
+        margin-right: 150px;  
+        margin-bottom: 20px;
+        border: 2px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px; 
+}
+
+.item1{
+        margin-left: 35px;
+}
+
+.item1 button , .item3 button  {
+        margin-top:10px;
+        text-align: center;
+        margin-left: 25px;
+        padding: 8px;
+        padding-left:68px;
+        padding-right:68px;
+        background-color: #C065C8;
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 15px;
+        height: 40px;
+        border:none;
+        
+}
+
+.item2-1 button{
+        margin-top:10px;
+        text-align: center;
+        margin-left: 25px;
+        padding: 8px;
+        padding-left:38px;
+        padding-right:38px;
+        background-color: #C065C8;
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 15px;
+        height: 40px;
+        border:none;
+}
+
+.item2-2 button{
+        margin-top:10px;
+        text-align: center;
+        margin-left: 33px;
+        padding: 8px;
+        padding-left:90px;
+        padding-right:92px;
+        background-color: #C065C8;
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 15px;
+        height: 40px;  
+        border:none;  
+}
+
+.item3-1 button{
+        margin-top:10px;
+        text-align: center;
+        margin-left: 25px;
+        padding: 8px;
+        padding-left:38px;
+        padding-right:38px; 
+        background-color: #C065C8;
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 15px;
+        height: 40px;
+        border:none;
+}
+
+.item4-1 button{
+        margin-top:10px;
+        text-align: center;
+        margin-left: 30px;
+        padding: 8px;
+        padding-left:73px;
+        padding-right:73px;
+        background-color: #C065C8;
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 15px;
+        height: 40px;
+        border:none;
+}
+
+.item4-2 button{
+        margin-top:10px;
+        text-align: center;
+        margin-left: 30px;
+        padding: 8px;
+        padding-left:78px;
+        padding-right:80px;
+        background-color: #C065C8;
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 15px;
+        height: 40px;
+        border:none;
+}
+
+.homeContainer1 img , .homeContainer2 img ,.homeContainer3 img{
+        width: auto;
+        height: 250px;
+        padding-left: 10px;
+}
+
+.hotelManagerPic{
+        height: 50px;
+        width:100px;
+}
+
+
+/* <---------------------------------------------Add services page---------------------------------------> */
+
+.AddServices{
+        display: inline-block;
+        position: absolute;
+        width: auto;
+        height: 450px;
+        left: 200px;
+        top: 225px;
+}
+
+.formContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 400px;
+        height: 1000px;
+        left: 875px;
+        margin-top: 30px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+.formDetails{
+        display:inline-flex;
+        flex-direction: column;
+        position: absolute;
+        width: 350px;
+        height: 990px;
+        left: 22px;
+}
+
+.addserviceButton{
+        background: #C065C8;
+        border: none;
+        margin-top: 20px;
+        border-radius: 5px;
+        height: 45px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #F8F5F5;
+}
+
+.formDetails label{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 27px;
+        color: #1E1E1E;
+}
+
+.formDetails input{
+        height: 20px;
+        background: #F8F5F5;
+        border: 2px solid #C065C8;
+        border-radius: 5px;
+        font-size: 13px;
+        padding:3px;
+}
+
+.formDetails em{
+        color: red;
+        font-size: 18px;
+}
+
+.formDetails h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C065C8;
+        margin-top: -20px;
+}
+
+.dropdownmenu{
+        height: 30px;
+        background: #F8F5F5;
+        border: 2px solid #C065C8;
+        border-radius: 5px;
+        font-size: 13px;
+        min-width: 100px;
+        padding: 3px 6px;
+        z-index: 1;
+}
+
+textarea{
+        background: #F8F5F5;
+        border: 2px solid #C065C8;
+        border-radius: 5px;
+        font-size: 13px;   
+}
+
+/* <---------------------------------------------Edit services page---------------------------------------> */
+
+
+.editServices{
+        display: inline-block;
+        position: absolute;
+        width: auto;
+        height: 460px;
+        left: 200px;
+        top: 200px; 
+}
+
+.updateserviceButton{
+        background: #C065C8;
+        border: none;
+        margin-top: 20px;
+        border-radius: 5px;
+        height: 45px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #F8F5F5;
+}
+
+
+/* <---------------------------------------------Reservation Schedule page---------------------------------------> */
+
+.reservation_schedule{
+        display: inline-block;
+        position: absolute;
+        width: auto;
+        height: 400px;
+        left: 100px;
+        top: 200px; 
+}
+
+.reservatiobformContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 940px;
+        height: 540px;
+        left: 520px;
+        top: 140px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+
+.reservatiobformContainer h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C065C8;
+}
+
+.reservatiobformContainer p{
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 30px;
+        text-decoration:underline;
+        color: #C065C8;
+}
+
+table{ 
+        border: 2px solid #C065C8;
+        width:880px ;
+        margin-left: 30px;
+          
+}
+
+
+/* <---------------------------------------------View Services Page---------------------------------------> */
+
+.MainBody h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C065C8;   
+        margin-top: 80px;
+}
+
+.MainBody h3{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 10px;
+        text-align: center;
+        margin-top: 200px;
+}
+
+.buttonContainer{
+        display: inline-flex;
+}
+.viewButton , .editButton ,.deleteButton{
+        text-align: center;
+        width: 65px;
+        height: auto;
+        font-weight: 400;
+        font-size: 13px;
+        border-radius: 5px;
+        border:none; 
+        padding: 10px;
+        margin-left: 35px;
+}
+
+.viewButton{
+        background-color: green;
+        color: #fff;
+}
+
+.editButton{
+        background-color:rgb(61, 60, 58);
+        color: #fff;
+}
+
+.deleteButton{
+        background-color: rgb(223, 17, 17);
+        color: #fff;
+}
+
+.service1{
+        width: 400px;
+        height:600px;
+        background: #F5E0F2;
+        margin-right: 20px;  
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;     
+        margin-left: 65px;
+        margin-top: 50px;
+} 
+
+.service1 h5{
+        margin-left: 18px;
+        font-weight: 600;
+        color:rgb(245, 104, 3);
+        font-size:20px;
+}
+
+.service1 img{
+        margin-left:70px
+}
+
+.service1 p{
+        margin-top: 20px;
+        margin-left:22px;
+        margin-right: 26px;
+        font-size:13px;
+        height: 220px;
+        /* overflow: hidden; */
+}
+
+.cards{
+        display: inline-flex;
+}
+
+
+
+/* <---------------------------------------------View Each Service Page---------------------------------------> */
+
+
+.viewContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 1000px;
+        height: 560px;
+        left: 250px;
+        top: 150px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+}
+
+.viewDetails h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: #C065C8;
+        text-align: center; 
+        margin-left: 250px;
+}
+
+.viewDetails{
+        position: absolute;
+        width: 950x;
+        height: 550px;
+        left: 50px;
+}
+
+.viewDetails ol{
+        font-weight: 700;
+        font-size: 15px;
+        padding-left: 10px;
+        margin-top: -8px;
+}
+
+.imagedisplay{
+       margin-left: 400px;
+       margin-top: -300px;
+      
+}
+
+ol li{
+        padding-top:20px;
+}
+
+.hotelimage{
+        width: 460px;
+        height: auto;
+        margin-left: 80px;
+        margin-top: 80px;
+}
+
+.form-control{
+        font-weight: 200;
+        display: inline;
+        font-size: 15px;
+}
+
+/* <---------------------------------------------Calender Page---------------------------------------> */
+
+.calenderContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width:700px;
+        height: 570px;
+        left: 680px;
+        top: 130px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        display: grid;
+        place-items: center;  
+}
+
+.calendar {
+        height: max-content;
+        width: max-content;
+        border-radius: 30px;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+}
+    
+.calendar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 600;
+        color:purple;
+        padding: 1px;
+}
+
+.calendar-body {    
+        padding: 10px;
+}
+
+.calendar-week-day {
+        height: 50px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        font-weight: 600;
+}
+
+.calendar-week-day div {
+        display: grid;
+        place-items: center;
+        color:rgb(200, 20, 200);
+}
+
+.calendar-days {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 2px;
+        color:rgb(174, 15, 137);
+}
+
+.calendar-days div {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        position: relative;
+        cursor: pointer;
+        animation: to-top 1s forwards;
+}
+
+.calendar-days div span {
+        position: absolute;
+}
+    
+.calendar-days div:hover span {
+        transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+    
+.calendar-days div span:nth-child(1),
+.calendar-days div span:nth-child(3) {
+        width: 2px;
+        height: 0;
+        background-color:rgb(212, 86, 212);
+}
+    
+.calendar-days div:hover span:nth-child(1),
+.calendar-days div:hover span:nth-child(3) {
+        height: 100%;
+}
+    
+.calendar-days div span:nth-child(1) {
+        bottom: 0;
+        left: 0;
+}
+    
+.calendar-days div span:nth-child(3) {
+        top: 0;
+        right: 0;
+}
+    
+.calendar-days div span:nth-child(2),
+.calendar-days div span:nth-child(4) {
+        width: 0;
+        height: 2px;
+        background-color: palevioletred;
+}
+    
+.calendar-days div:hover span:nth-child(2),
+.calendar-days div:hover span:nth-child(4) {
+        width: 100%;
+}
+    
+.calendar-days div span:nth-child(2) {
+        top: 0;
+        left: 0;
+}
+    
+.calendar-days div span:nth-child(4) {
+        bottom: 0;
+        right: 0;
+}
+
+.calendar-days div:hover span:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.calendar-days div:hover span:nth-child(3) {
+    transition-delay: 0.4s;
+}
+
+.calendar-days div:hover span:nth-child(4) {
+    transition-delay: 0.6s;
+}
+
+.calendar-days div.curr-date,
+.calendar-days div.curr-date:hover {
+    background-color: rgba(196, 21, 155, 0.89);
+    color:white;
+    border-radius: 50%;
+}
+
+.calendar-days div.curr-date span {
+    display: none;
+}
+
+.month-picker {
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.month-picker:hover {
+    background-color:rgb(168, 12, 144);
+    color: #fff;
+}
+
+.year-picker {
+    display: flex;
+    align-items: center;
+}
+
+.year-change {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.year-change:hover {
+    background-color: rgb(229, 114, 219);
+}
+
+.calendar-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.month-list {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgb(249, 46, 202);
+    padding: 20px;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    display: grid;
+    transform: scale(1.5);
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.month-list.show {
+    transform: scale(1);
+    visibility: visible;
+    pointer-events: visible;
+    transition: all 0.2s ease-in-out;
+}
+
+.month-list > div {
+    display: grid;
+    place-items: center;
+}
+
+.month-list > div > div {
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(117, 11, 89);
+}
+
+.month-list > div > div:hover {
+    background-color: rgb(172, 87, 150);
+}
+
+.reservationcalender{
+        height: 450px;
+        width: auto;
+        margin-left: 120px;
+        margin-top: 100px;
+}
+
+.identifications li{
+        display: inline-flex;
+}
+
+.identifications input{ 
+        margin-left: 20px;  
+        width: 10px;
+        height: 20px; 
+}

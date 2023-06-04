@@ -1,0 +1,616 @@
+/* <-----------------------------------------------General Css 1 ----------------------------------------------------------> */
+body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-color: #ECC7F2;
+}
+
+.MainBody{
+        margin-top: 100px;
+        display: flex;
+        flex-direction:row;
+        width: 100uw;
+}
+
+.picContainer{
+        width:50uw;
+}
+
+
+/* <-----------------------------------------------LOGIN PAGE----------------------------------------------------------> */
+
+.loginPic{
+        display: inline-block;
+        position: absolute;
+        width: auto;
+        height: 430px;
+        left: 200px;
+        top: 205px;
+}
+
+.loginformContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 400px;
+        height: 530px;
+        left: 875px;
+        top: 145px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+.loginformDetails{
+        display:inline-flex;
+        flex-direction: column;
+        position: absolute;
+        width: 350px;
+        height: 520px;
+        left: 22px;
+        top: 5px;
+}
+
+.loginButton{
+        background: #C065C8;
+        border: none;
+        margin-top: 30px;
+        border-radius: 5px;
+        height: 45px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #F8F5F5;
+        margin-bottom: 30px;
+}
+
+.loginformDetails label{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 40px;
+        color: #1E1E1E;
+}
+
+.loginformDetails input{
+        height: 30px;
+        background: #F8F5F5;
+        border: 2px solid #C065C8;
+        border-radius: 5px;
+        font-size: 13px;
+        padding:3px;
+}
+
+.loginformDetails em{
+        color: red;
+        font-size: 14px;
+}
+
+.loginformDetails h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C065C8;
+}
+
+.loginformDetails p{
+        font-size: 13px;
+        line-height: 30px;
+}
+
+.loginformDetails a{
+        color:#C065C8
+}
+
+.loginformDetails a:hover{
+        color:#8b2195
+}
+
+/* <-----------------------------------------------Sign Up PAGE----------------------------------------------------------> */
+
+.SignupPic{
+        display: inline-block;
+        position: absolute;
+        width: 520px;
+        height: 475px;
+        left: 200px;
+        top: 175px;
+}
+
+.formContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 400px;
+        height: 1000px;
+        left: 875px;
+        top: 115px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+.formDetails{
+        display:inline-flex;
+        flex-direction: column;
+        position: absolute;
+        width: 350px;
+        height: 950px;
+        left: 22px;
+}
+
+.SignupButton{
+        background: #C065C8;
+        border: none;
+        margin-top: 20px;
+        border-radius: 5px;
+        height: 45px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #F8F5F5;
+}
+
+.formDetails label{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 27px;
+        color: #1E1E1E;
+}
+
+.formDetails input{
+        height: 20px;
+        padding: 2px;
+        background: #F8F5F5;
+        border: 2px solid #C065C8;
+        border-radius: 5px;
+        font-size: 12px;
+        padding:3px;
+}
+
+.formDetails em{
+        color: red;
+        font-size: 14px;
+}
+
+.formDetails h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C065C8;
+
+}
+
+.formDetails p{
+        font-size: 13px;
+        line-height: 30px;
+}
+
+.formDetails a{
+        color:#C065C8
+}
+
+.formDetails a:hover{
+        color:#8b2195
+}
+
+/* <-----------------------------------------------SuccessSigned PAGE----------------------------------------------------------> */
+
+.SuccessSignupPic{  
+        display: inline-block;
+        position: absolute;
+        width: auto;
+        height: 400px;
+        left: 240px;
+        top: 230px;
+}
+
+.logContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 400px;
+        height: 330px;
+        left: 875px;
+        top: 260px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+.logDetails{
+        display:inline-flex;
+        flex-direction: column;
+        position: absolute;
+        width: 350px;
+        height: 450px;
+        left: 22px;
+        top: 25px;
+}
+.logDetails p{
+        font-weight: 700;
+        font-size: 20px;
+        padding-left: 10px;
+
+}
+
+.SignedButton{
+        background: #C065C8;
+        border: none;
+        margin-top: 5px;
+        border-radius: 5px;
+        height: 45px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #F8F5F5;
+}
+
+.arrowContainer img{
+        width: 130px;
+        height: 150px;
+        padding-left: 110px;
+        margin-top: -10px;
+}
+
+/* <-----------------------------------------------Forgot Password PAGE----------------------------------------------------------> */
+
+.Changepassword{
+        display: inline-block;
+        position: absolute;
+        width: 375px;
+        height: 425px;
+        left: 250px;
+        top: 210px;
+}
+
+
+.recoverContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 875px;
+        top: 225px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+.recoverDetails{
+        display:inline-flex;
+        flex-direction: column;
+        position: absolute;
+        width: 350px;
+        height: 250px;
+        left: 22px;
+}
+
+.recoverDetails label{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 60px;
+        color: #1E1E1E;
+}
+
+.recoverDetails input{
+        height: 20px;
+        background: #F8F5F5;
+        border: 2px solid #C065C8;
+        border-radius: 5px;
+        font-size: 13px;
+        padding:3px;
+}
+
+.recoverDetails em{
+        color: red;
+        font-size: 14px;
+}
+
+.recoverDetails h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C065C8;
+        margin-top: 50px;
+}
+
+.recoverContainer p{
+        font-size: 13px;
+        line-height: 30px;
+        text-align: center;
+}
+
+.recoverContainer a{
+        color:#C065C8
+}
+
+.recoverContainer a:hover{
+        color:#8b2195
+}
+
+.SubmitButton{
+        background: #C065C8;
+        border: none;
+        margin-top: 25px;
+        border-radius: 5px;
+        height: 45px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #F8F5F5;
+}
+
+/* <-----------------------------------------------OTP Verification PAGE----------------------------------------------------------> */
+
+.otpverifyContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 400px;
+        height: 450px;
+        left: 875px;
+        top: 180px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+
+}
+
+
+.otpverifyDetails{
+        display:inline-flex;
+        flex-direction: column;
+        position: absolute;
+        width: 350px;
+        height: 400px;
+        left: 22px;
+}
+
+.otpverifyDetails label{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 35px;
+        color: #1E1E1E;
+}
+
+.otpverifyDetails input{
+        height: 20px;
+        background: #F8F5F5;
+        border: 2px solid #C065C8;
+        border-radius: 5px;
+        font-size: 13px;
+        padding: 3px;
+}
+
+.otpverifyDetails em{
+        color: red;
+        font-size: 18px;
+}
+
+.otpverifyDetails h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 2px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C065C8;
+        margin-top: 40px;
+}
+
+
+.OTPSubmitButton{
+        background: #C065C8;
+        border: none;
+        margin-top: 30px;
+        border-radius: 5px;
+        height: 38px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #F8F5F5;    
+}
+
+.otppic{
+        display: inline-block;
+        position: absolute;
+        width: auto;
+        height: 400px;
+        left: 225px;
+        top: 200px;
+}
+
+/* <-----------------------------------------------Change Forgot Password PAGE----------------------------------------------------------> */
+
+.SuccessforgotPasswordChangePic{
+        display: inline-block;
+        position: absolute;
+        width: auto;
+        height: 470px;
+        left: 225px;
+        top: 200px;
+}
+
+.changeforgotPWContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 400px;
+        height: 520px;
+        left: 875px;
+        top: 150px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+.changeforgotPWDetails{
+        display:inline-flex;
+        flex-direction: column;
+        position: absolute;
+        width: 350px;
+        height: 450px;
+        left: 22px;
+        top: 25px;
+}
+.changeforgotPWDetails p{
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 10px;
+        text-align: center;
+        font-weight: 550;
+}
+
+.newLoginButton{
+        background: #C065C8;
+        border: none;
+        margin-top: 5px;
+        border-radius: 5px;
+        height: 45px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #F8F5F5;
+}
+
+.changeforgotPWDetails h5{
+        font-style: normal;
+        font-weight: 540;
+        font-size: 24px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 15px;
+}
+
+.successicon{
+        width: 90px;
+        height: auto;
+        margin-left: 130px;
+}
+
+
+/* <-----------------------------------------------Change Password PAGE----------------------------------------------------------> */
+
+.changepassword{
+        display: inline-block;
+        position: absolute;
+        width: auto;
+        height: 500px;
+        left: 200px;
+        top: 150px;
+}
+
+.ChangeformContainer{
+        box-sizing: border-box;
+        position: absolute;
+        width: 400px;
+        height: 450px;
+        left: 875px;
+        top: 180px;
+        background: #F5E0F2;
+        border: 1px solid #C065C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+
+.ChangeformDetails{
+        display:inline-flex;
+        flex-direction: column;
+        position: absolute;
+        width: 350px;
+        height: 550px;
+        left: 22px;
+        top: 5px;
+}
+
+.confirmButton{
+        background: #C065C8;
+        border: none;
+        margin-top: 30px;
+        border-radius: 5px;
+        height: 45px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #F8F5F5;
+        margin-bottom: 30px;
+}
+
+.ChangeformDetails label{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 40px;
+        color: #1E1E1E;
+}
+
+.ChangeformDetails input{
+        height: 30px;
+        background: #F8F5F5;
+        border: 2px solid #C065C8;
+        border-radius: 5px;
+        font-size: 13px;
+}
+
+.ChangeformDetails em{
+        color: red;
+        font-size: 14px;
+}
+
+.ChangeformDetails h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #C065C8;
+}
+
+
+/* <-----------------------------------------------Resend OTP Code PAGE----------------------------------------------------------> */
+
+.resendotppic{
+        display: inline-block;
+        position: absolute;
+        width: auto;
+        height: 620px;
+        left: 130px;
+        top: 100px;
+}
+
