@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "", "hotel_manager_role");
+$conn = mysqli_connect("localhost", "root", "", "vehicle");
 
 if(!$conn){
         echo "Connection Failed";

@@ -3,9 +3,9 @@
         session_start();
         include 'config.php';
 
-        $service_id = $_GET['service_id'];
+        $ID = $_GET['ID'];
 
-        $query = "DELETE FROM hotel_managers WHERE service_id='$service_id' ";
+        $query = "DELETE FROM vehicle_details WHERE ID='$ID' ";
         $result = mysqli_query($conn, $query);
 
                 if($result){
